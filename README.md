@@ -6,7 +6,7 @@ A clean, user-friendly Python implementation of **Autoencoding Random Forests (R
 
 ---
 
-## 📚 References
+##  References
 
 - **Autoencoding Random Forests.** *Binh Duc Vu, Jan Kapar, Marvin N. Wright, David S. Watson.* arXiv:2505.21441 (2025).  
   arXiv: https://arxiv.org/abs/2505.21441 (PDF: https://arxiv.org/pdf/2505.21441)
@@ -21,7 +21,7 @@ A clean, user-friendly Python implementation of **Autoencoding Random Forests (R
 
 ---
 
-## 🧠 Method Overview
+## Method Overview
 
 RFAE treats a random forest as a data‑adaptive geometry:
 
@@ -54,7 +54,7 @@ RFAE treats a random forest as a data‑adaptive geometry:
 
 ---
 
-## ✨ Features
+##  Features
 
 - Supervised **classification/regression** or **unsupervised** (completely random forest)
 - Mixed‑type tabular data (numeric + categorical), with automatic dtype handling
@@ -76,7 +76,7 @@ pip install numpy pandas scikit-learn torch scipy
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ```python
 from rfae import RFAE, RFAEConfig, reconstruction_distortion
@@ -129,7 +129,7 @@ loaded = RFAE.load("my_rfae")
 
 ---
 
-## 🧩 API Summary
+##  API Summary
 
 ### `RFAEConfig`
 Key knobs:
