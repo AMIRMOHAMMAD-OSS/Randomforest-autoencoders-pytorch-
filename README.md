@@ -1,12 +1,16 @@
 # Random-Forest Autoencoder (RFAE) — PyTorch Implementation
 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AMIRMOHAMMAD-OSS/Randomforest-autoencoders-pytorch-/blob/main/RFAE_Colab.ipynb)
+
+
 A clean, user-friendly Python implementation of **Autoencoding Random Forests (RFAE)**: a diffusion‑map encoder built from a Random‑Forest kernel with out‑of‑sample **Nyström** extension, and a **k‑NN decoder** (weighted averaging for continuous features, weighted majority vote for categoricals).
 
 > This repository provides a single‑file module: **`rfae.py`** (drop‑in ready).
 
 ---
 
-##  References
+## 📚 References
 
 - **Autoencoding Random Forests.** *Binh Duc Vu, Jan Kapar, Marvin N. Wright, David S. Watson.* arXiv:2505.21441 (2025).  
   arXiv: https://arxiv.org/abs/2505.21441 (PDF: https://arxiv.org/pdf/2505.21441)
@@ -21,7 +25,7 @@ A clean, user-friendly Python implementation of **Autoencoding Random Forests (R
 
 ---
 
-## Method Overview
+## 🧠 Method Overview
 
 RFAE treats a random forest as a data‑adaptive geometry:
 
@@ -67,7 +71,7 @@ RFAE treats a random forest as a data‑adaptive geometry:
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 ```bash
 pip install numpy pandas scikit-learn torch scipy
@@ -158,7 +162,7 @@ Paper’s tabular distortion metric: mean of \(1-R^2\) for continuous & error ra
 
 ---
 
-## 🛠️ Implementation Notes
+##  Implementation Notes
 
 - **Kernel build:** per‑tree leaf membership is pre‑indexed for fast train/train and test/train kernel assembly.
 - **Stability:** ensures symmetry/non‑negativity; uses `eigsh` for large \(n\) when SciPy is present.
@@ -192,7 +196,7 @@ And consider referencing this PyTorch implementation as:
 
 ---
 
-## 🧪 Minimal Demo
+##  Minimal Demo
 
 Run the built-in smoke test:
 
@@ -204,12 +208,12 @@ It trains on Iris, prints embedding shapes, and shows a quick reconstruction.
 
 ---
 
-## ⚖️ License
+##  License
 
 MIT. See header in `rfae.py`.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - The RFAE concept, analysis, and experimental protocol are due to **Binh Duc Vu, Jan Kapar, Marvin N. Wright, and David S. Watson**. This repo simply offers a Pythonic re‑implementation for wider adoption.
