@@ -6,7 +6,6 @@
 
 A clean, user-friendly Python implementation of **Autoencoding Random Forests (RFAE)**: a diffusion‑map encoder built from a Random‑Forest kernel with out‑of‑sample **Nyström** extension, and a **k‑NN decoder** (weighted averaging for continuous features, weighted majority vote for categoricals).
 
-> This repository provides a single‑file module: **`rfae.py`** (drop‑in ready).
 
 ---
 
@@ -21,7 +20,6 @@ A clean, user-friendly Python implementation of **Autoencoding Random Forests (R
 - Prior related tree‑autoencoder work: **eForest** (*AutoEncoder by Forest*, AAAI 2018):  
   https://ojs.aaai.org/index.php/AAAI/article/view/11732
 
-> This Python module re‑implements the RFAE algorithm for the PyTorch + scikit‑learn ecosystem while keeping the paper’s design and notation.
 
 ---
 
