@@ -10,7 +10,7 @@ A clean, user-friendly Python implementation of **Autoencoding Random Forests (R
 
 ---
 
-## 📚 References
+## References
 
 - **Autoencoding Random Forests.** *Binh Duc Vu, Jan Kapar, Marvin N. Wright, David S. Watson.* arXiv:2505.21441 (2025).  
   arXiv: https://arxiv.org/abs/2505.21441 (PDF: https://arxiv.org/pdf/2505.21441)
@@ -25,7 +25,7 @@ A clean, user-friendly Python implementation of **Autoencoding Random Forests (R
 
 ---
 
-## 🧠 Method Overview
+## Method Overview
 
 RFAE treats a random forest as a data‑adaptive geometry:
 
